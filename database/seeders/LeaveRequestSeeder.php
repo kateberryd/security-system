@@ -38,7 +38,7 @@ class LeaveRequestSeeder extends Seeder
             'description' => 'WTF',
             'duration' => "2 months",
             'status' => 0,
-            'user_id' => 2,
+            'user_id' => 1,
             // 'description' => 'Super Admin User',
             // 'permissions' => [
             //   'user.create'   => true,
