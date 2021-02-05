@@ -52,6 +52,10 @@ class AuthenticationController extends Controller
           }
     }
     
+    
+     
+  
+    
     public function store(Request $request)
     {
         //

@@ -19,6 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 });
 
+Route::post('/login', 'APIController@login');
+Route::post('/register', 'APIController@store');
 
 Route::post('/create-requesst', 'LeaveRequestController@store')->name('store.post');
 
