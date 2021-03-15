@@ -457,9 +457,9 @@ class Menu
     // Check for active Horizontal Menu item
     public static function isActiveHorMenuItem($item, $page, $rec = 0)
     {
-        if (@$item['redirect'] === true) {
-            return false;
-        }
+        // if (@$item['redirect'] === true) {
+        //     return false;
+        // }
 
         self::checkRecursion($rec);
 
